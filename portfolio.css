@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+    background-image: url("./images/bg-1.jpg");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-device-width:768px) {
+    body{
+        background-image: url("./images/star-1.jpg");
+        background-size: 100% 100vh;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+}
+
+.back-ground{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-link{
+    transition: 0.4s;
+}
+.nav-link:hover{
+    transform: translate(2px,2px);
+    background-color: black;
+    border-radius: 10px;
+}
+.logo{
+    height: 100px;
+    width: 50px;
+    position: fixed;
+    margin-top: 20px;
+}
+.logopng{
+    height: 100px;
+    width: 120px;
+    margin-left: 10px;
+    clip-path: circle();
+}
+
+@media only screen and (max-device-width:1026px) {
+    .logo{
+        height: 100px;
+        position: relative;
+    }
+
+}
+
+
+
+.navBar{
+    background-color: black;
+}
+.nav-button{
+    margin-left: auto;
+    margin-right: 1px;
+}
+
+.name{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.myname{
+    color: rgb(255, 255, 255);
+}
+
+.intro{
+    width: 50%;
+    position: relative;
+    margin-top: 16%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+}
+.intro1{
+    width: 100%;
+    margin-top: 10%;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.quote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.homePage,.certifications{
+    height: 100vh;
+}
+
+.myPhoto{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.help{
+    font-size: 30px;
+}
+
+.card{
+    color: aliceblue;
+    background-color: rgb(69, 68, 68);
+    box-shadow: rgba(173, 172, 172, 0.56) 0px 2px 7px 2px;
+}
+.card:hover{
+    background-color: rgb(16, 17, 75);
+}
+th,td{
+    padding: 3% 7px;
+    border: 2px solid;
+}
+tr:hover{
+    background-color: rgb(5, 74, 10);
+}
+.educationTablecolumn{
+    width: 100%;
+    color: white;
+    overflow-x: scroll;
+}
+@media only screen and (min-device-width:1026px) {
+    .educationTablecolumn{
+        overflow: hidden;
+    }
+}
+.carouselImage{
+    height: 570px;
+    width: 100%;
+}
+
+.contact{
+    padding: 50px 20px;
+    background-color: rgb(51, 81, 45);
+    color: aliceblue;
+}
+
